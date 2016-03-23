@@ -62,4 +62,4 @@ def get_time_stamp():
 #    from computer_info import computer
     
 
-from of_internal.utils.computer_info import computer   
+from computer_info import computer   
