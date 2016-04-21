@@ -7,7 +7,7 @@ Email: freifeld@csail.mit.edu
 """
 import numpy as np
 from pycuda import gpuarray
-from pycuda.gpuarray import GPUArray
+#from pycuda.gpuarray import GPUArray
 
 class CpuGpuArray(object):
     """
