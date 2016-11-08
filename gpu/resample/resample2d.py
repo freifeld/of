@@ -35,7 +35,7 @@ int nChannels)
     int y1 = y0 + 1;        
     
     /////  BUG FIX. April 7, 2015. 
-    ///// If the point happens to an integer, we don't need to interpolate.
+    ///// If the point happens to be an integer, we don't need to interpolate.
     if (x0==int(x))
         x1=x0;
     if (y0==int(y))
@@ -102,7 +102,7 @@ int nChannels)
     int y1 = y0 + 1;        
     
     /////  BUG FIX. April 7, 2015. 
-    ///// If the point happens to an integer, we don't need to interpolate.
+    ///// If the point happens to be an integer, we don't need to interpolate.
     if (x0==int(x))
         x1=x0;
     if (y0==int(y))
