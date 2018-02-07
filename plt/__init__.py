@@ -39,7 +39,7 @@ def set_figure_size_and_location(x=50,y=50,width=400,height=400):
         thismanager.window.SetPosition((x, y)) 
         thismanager.window.SetSize((width,height))               
     
-    elif matplotlib_backend=='Qt4Agg':
+    elif matplotlib_backend in ['Qt4Agg','Qt5Agg']:
         thismanager = get_current_fig_manager()
         thismanager.window.setGeometry(x,y,width,height)                
     else:
